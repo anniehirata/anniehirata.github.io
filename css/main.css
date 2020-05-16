@@ -41,6 +41,7 @@ a:hover {
 
 #navtitle {
     font-size: 27px;
+    text-align: center;
 }
 
 #main {
@@ -58,8 +59,4 @@ a:hover {
     padding-top: 10vh;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-footer {
-    height: 10vh;
 }
