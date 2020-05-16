@@ -4,7 +4,7 @@ body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 
-ul {
+.nav-ul {
     padding-left: 10px;
     height: 100%;
     margin: 0;
@@ -14,11 +14,11 @@ ul {
     align-items: center;
 }
 
-li {
+.nav-ul > li {
     display: inline;
 }
 
-a:link, a:visited {
+.nav-ul > li > a:link, a:visited {
     color: rgb(88, 88, 88);
     text-decoration: none;
     font-size: 23px;
@@ -26,7 +26,7 @@ a:link, a:visited {
     padding-right: 10px;
 }
 
-a:hover {
+.nav-ul > li > a:hover {
     color: black;
 }
 
@@ -52,11 +52,4 @@ a:hover {
 #menu-links {
     float: right;
     font-size: 10px;
-}
-
-.content-container {
-    height: 100vh;
-    padding-top: 10vh;
-    margin-left: 5%;
-    margin-right: 5%;
 }

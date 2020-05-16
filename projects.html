@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{page.title}}</title>
+		<title>Annie Hirata</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="/css/projects.css">
 	</head>
 	<body>
 		<nav class="navbar">
-    		<ul id="main">
+    		<ul class="nav-ul" id="main">
                 <li><a id="navtitle" href="/">ANNIE HIRATA</a></li>
-                <li><a href="/about">ABOUT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
                 <li><a href="files/annehirata-resume.pdf" target="_blank">RESUME</a></li>
-                <li><a href="/projects">PROJECTS</a></li>
             </ul>
-            <ul id="menu-links">
+            <ul class="nav-ul" id="menu-links">
                 <li><a href="mailto:aahirata@uci.edu" target="_blank">Email</a></li>
                 <li><a href="https://github.com/anniehirata" target="_blank">GitHub</a></li>
                 <li><a href="https://linkedin.com/in/anne-hirata" target="_blank">LinkedIn</a></li>
             </ul>
 		</nav>
 		<div class="content-container">
-            {{content}}
+            <div class="content">
+                <h1>Projects</h1>
+                <p>Project stuff</p>
+            </div><!-- /.content -->
 		</div><!-- /.content -->
 	</body>
 </html>
