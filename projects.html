@@ -21,10 +21,57 @@
 		</nav>
 		<div class="content-container">
             <div class="content">
-                <h1>Projects</h1>
-                <br/>
-                <p>Project stuff</p>
+                <h1 id="mainheader">Projects</h1>
+                <hr>
+
+                <h1 class="subheader">Computer Graphics</h1>
+
+                <h2>Path Tracer | Spring 2020</h2>
+                    <div class="img">
+                        <img src="files/pathtrace.jpg" alt="pathtrace">
+                    </div>
+                    <p class="withpic">
+                        Implemented path tracer with Monte Carlo integration in C++. Wrote code to implement BRDFs for diffuse and
+                        specular shaders and compute radiance with next event estimation. Terminated recursion with Russian roulette method.
+                        <br/><br/>Codebase provided by Shuang Zhao (<a href="https://shuangz.com" target="_blank">https://shuangz.com/</a>)
+                    </p>
+
+                <h2>Cloth Simulation | Spring 2020</h2>
+                <div class="img">
+                        <video width="320" height="240" autoplay loop>
+                            <source src="files/clothsim.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="withpic">
+                        Implemented mass-spring particle system to simulate cloth motion in javascript using semi-implicit Euler's method.
+                        Wrote code to implement actual simulation: updating particle positions and velocities.
+                        <br/>Forces considered: gravity, damping, viscous, structural, shear and flexion.
+                        <br/><br/>Codebase provided by Shuang Zhao (<a href="https://shuangz.com" target="_blank">https://shuangz.com/</a>)
+                    </p>
+
+                <!-- <h1 class="subheader">Computer Vision</h1>
+                <h2>something | Spring 2020</h2>
+                <p>camera thing</p> -->
+
+                <h1 class="subheader notfirst">Web Development</h1>
+                <h2>My Philanthropies Volunteer Web Tracker Application | Fall 2019</h2>
+                    <p>
+                        In a team of six, we created a web application for My-Philanthropies, a non profit organization that is a 
+                        "unique network dedicated to linking philanthropreneurs to each other, creating symbiotic relationships between 
+                        like-minded people who are ready to make a difference in their own lives and in our communities." The application
+                        lets volunteers create an account and view and sign up to volunteer at events.
+                        <br><br>
+                        I worked on the backend team, writing API endpoints for interactions with events such as signing up and viewing.
+                        I created the ER diagram for our database and helped write overall documentation.
+                        We used the Django REST framework and deployed our application on an AWS EC2 instance.
+                        <br><br>
+                        <a href="https://myphilanthropies.com/" target="_blank">Visit the MyPhilanthropies website!</a>
+                        <br>
+                    </p>
+                <!-- <h2>Warm and Fuzzies | Spring 2020</h2> -->
             </div><!-- /.content -->
-		</div><!-- /.content -->
+        </div><!-- /.content-container -->
+        <div class="footer"></div>
 	</body>
 </html>
