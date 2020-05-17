@@ -9,7 +9,6 @@
 }
 
 .content-container {
-    height: 90vh;
     padding-top: 10vh;
     margin-left: 5%;
     margin-right: 5%;
@@ -18,7 +17,7 @@
 p {
     margin: 0;
     font-family: "Roboto Light", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h1 {

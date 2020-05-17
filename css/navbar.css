@@ -60,3 +60,10 @@ body {
     font-size: 10px;
     padding-right: 10px;
 }
+
+.footer {
+    clear: both;
+    margin: 0;
+    height: 8vh;
+    width: 100%;
+}
