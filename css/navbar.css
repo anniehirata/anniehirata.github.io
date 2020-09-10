@@ -39,7 +39,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
-    height: 8vh;
+    height: 100px;
     width: 100%;
     position: fixed;
 }
@@ -64,6 +64,6 @@ body {
 .footer {
     clear: both;
     margin: 0;
-    height: 8vh;
+    height: 100px;
     width: 100%;
 }

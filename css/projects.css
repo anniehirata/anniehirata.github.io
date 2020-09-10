@@ -9,9 +9,9 @@
 }
 
 .content-container {
-    padding-top: 10vh;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 125px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 p {
@@ -69,10 +69,10 @@ p > a:hover {
 
 .img {
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
 .withpic {
     float: right;
-    width: 70%;
+    width: 60%;
 }
